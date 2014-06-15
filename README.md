@@ -8,6 +8,11 @@ License
 
 NYSL.
 
+Target environments
+-------------------
+
+Windows XP or later.
+
 Set up
 ------
 
