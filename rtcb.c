@@ -2,7 +2,7 @@
 /**
  * @brief    rtcb; Read Text from ClipBoard
  * @author   eel3
- * @date     2014/06/12
+ * @date     2014/09/18
  *
  * @par OS:
  *   - Microsoft Windows XP Professional (32bit) SP3
@@ -27,10 +27,10 @@
 #include <windows.h>
 
 #ifndef STDIN_FILENO
-	#define STDIN_FILENO 0
+#	define STDIN_FILENO 0
 #endif
 #ifndef STDOUT_FILENO
-	#define STDOUT_FILENO 1
+#	define STDOUT_FILENO 1
 #endif
 
 #if defined(__MINGW32__) || defined(__MINGW64__)
