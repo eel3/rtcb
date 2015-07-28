@@ -18,10 +18,11 @@ Set up
 
 All you have to do is compile rtcb.c. Use make and Makefile.
 
-| toolset                       | Makefile          |
-|:------------------------------|:------------------|
-| MinGW/TDM-GCC (with GNU make) | Makefile_mingw    |
-| Microsoft Visual C++          | Makefile_vc_nmake |
+| toolset                            | Makefile                 |
+|:-----------------------------------|:-------------------------|
+| MinGW/TDM-GCC (with GNU make)      | Makefile\_mingw          |
+| MinGW-w64/TDM64-GCC (32bit binary) | Makefile\_mingw64\_32bit |
+| Microsoft Visual C++ (with NMAKE)  | Makefile\_vc\_nmake      |
 
 Usage
 -----
