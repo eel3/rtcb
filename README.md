@@ -16,7 +16,8 @@ Windows XP or later.
 Set up
 ------
 
-All you have to do is compile rtcb.c. Use make and Makefile.
+1. Compile rtcb.c. Use make and Makefile.
+2. Put rtcb in a directory registered in PATH.
 
 | toolset                            | Makefile                 |
 |:-----------------------------------|:-------------------------|
@@ -27,7 +28,7 @@ All you have to do is compile rtcb.c. Use make and Makefile.
 Usage
 -----
 
-See \`Example'. rtcb has no option.
+Simply execute `rtcb`. rtcb has no option.
 
 Example
 -------
